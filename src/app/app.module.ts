@@ -7,13 +7,15 @@ import { NgxPermissionsModule } from 'ngx-permissions';
 import { NoPermissionComponent } from './components/no-permission/no-permission.component';
 import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NoPermissionComponent,
         HomeComponent,
-        NotFoundComponent
+        NotFoundComponent,
+        MainComponent
     ],
     imports: [
         BrowserModule,
